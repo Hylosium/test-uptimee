@@ -6,7 +6,7 @@ sites:
   - name: Google
     url: https://www.google.com
   - name: Kagi (though is's a paid service, the results are better than anyone else)
-    url: https//kagi.com
+    url: https://kagi.com/
   - name: marginalia (independent search-engine made correctly, like the olds days)
     url: https://marginalia-search.com/
   - name: Overleaf (GUI self-hosted)
