@@ -37,3 +37,13 @@ i18n:
   activeIncidents: Incidentes activos
   allSystemsOperational: Todos los sistemas están operativos
   # ...
+
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
