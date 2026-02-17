@@ -5,6 +5,10 @@ repo: test-uptimee # The name of this repository
 sites:
   - name: Google
     url: https://www.google.com
+  - name: Kagi (though is's a paid service, the results are better than anyone else)
+    url: https//kagi.com
+  - name: marginalia (independent search-engine made correctly, like the olds days)
+    url: https://marginalia-search.com/
   - name: Overleaf (GUI self-hosted)
     url: https://gui.inf.uva.es/
   - name: Frontend (GUI)
@@ -22,8 +26,8 @@ status-website:
   baseUrl: /test-uptimee
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "**Upptime** es un monitor de uptime y página de estado open-source, gestionado completamente por GitHub."
+  introMessage: Estado en tiempo real desde [GitHub](https://github.com/Hylosium/test-uptimee). Sin servidores, solo GitHub Actions. [**Crea la tuya gratis**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
@@ -40,10 +44,11 @@ i18n:
 
 
 workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "0 23 * * *"
-  staticSite: "0 1 * * *"
-  summary: "0 0 * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
+  graphs: "0 0 * * *"             # Ejecutar una vez al día a medianoche
+  responseTime: "0 23 * * *"       # Ejecutar una vez al día a las 11 PM
+  staticSite: "0 1 * * *"          # Ejecutar una vez al día a la 1 AM
+  summary: "0 0 * * *"             # Ejecutar una vez al día a medianoche
+  updateTemplate: "0 0 * * *"      # Ejecutar una vez al día a medianoche
+  updates: "0 3 * * *"             # Ejecutar una vez al día a las 3 AM
+  uptime: "*/5 * * * *"              # Ejecutar una vez cada hora (debido a la limitación de GitHub Actions gratis)
+  
