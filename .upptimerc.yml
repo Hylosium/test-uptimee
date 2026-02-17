@@ -5,10 +5,12 @@ repo: test-uptimee # The name of this repository
 sites:
   - name: Google
     url: https://www.google.com
-  - name: Kagi (though is's a paid service, the results are better than anyone else)
+  - name: Kagi
     url: https://kagi.com/
-  - name: marginalia (independent search-engine made correctly, like the olds days)
+    description: "Though it's a paid service, the results are better than anyone else."
+  - name: marginalia
     url: https://marginalia-search.com/
+    description: "Independent search engine made correctly, like the old days."
   - name: Overleaf (GUI self-hosted)
     url: https://gui.inf.uva.es/
   - name: Frontend (GUI)
